@@ -9,8 +9,6 @@ public class HomeWork_02 {
          Вывести найденные строки и их длину.*/
         Scanner scanner = new Scanner(System.in);
         String[] array = new String[5];
-       // int array = str.array();
-
 
         for (int i = 0; i < array.length; i++) {
             System.out.print("Введите слово: ");
