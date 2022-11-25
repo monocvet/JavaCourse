@@ -1,4 +1,4 @@
-package Lesson_08;
+package lesson_08;
 
 public class main {
     // 1. Создать класс игру, в которой у нас происходит мгра

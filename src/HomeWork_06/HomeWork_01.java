@@ -17,9 +17,8 @@ public class HomeWork_01 {
 
         for (int i = 0; i < array.length; i++) {
             System.out.print("¬ведите слово: ");
-            String a = scanner.nextLine();
-            array[i] = a;
-            if (a.isEmpty()) {
+            array[i] = scanner.nextLine();
+            if (array[i].isEmpty()) {
                 break;
             }
         }

@@ -12,19 +12,21 @@ public class HomeWork_02 {
         int[] count = new int[5];
 
         for (int i = 0; i < array.length; i++) {
-            System.out.print("¬ведите слово: ");
-            String a = scanner.nextLine();
-            array[i] = a;
-        }
-        int max = count[4];
-        for (int i = 0; i < array.length; i++) {
-            count[i] = array[i].length();
-            if (max < count[i]) {
-                max = count[i];
+            System.out.print("¬ведите строку: ");
+            array[i] = scanner.nextLine();
+                   }
+            //     for (int i = 0; i < array.length; i++) {
+            //          count[i] = array[i].length();
+            //      }
+           // for (int i = 0; i < array.length; i++) {
+              //  for (int j = i; j < array.length; j++) {
+                 //   if (array[i] < array[j]) {
+                  //      int x = array[i];
+                  //      array[i] = array[j];
+                  //      array[j] = x;
+
+                  //  }
+               // }
             }
         }
-        System.out.println(max);
-
-    }
-}
 
