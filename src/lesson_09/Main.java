@@ -1,7 +1,6 @@
 package lesson_09;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -90,6 +89,29 @@ public class Main {
 
 
         System.out.println(list);
+
+
+        HashSet<String> strings = new HashSet<>();
+        strings.add("AAA");
+        strings.add("BBB");
+        strings.add("CCC");
+        strings.add("CCC");
+        strings.add("DDD");
+        strings.add("FFF");
+        strings.add(null);
+
+        LinkedHashSet<String> strings1 = new LinkedHashSet<>();
+        strings.add("AAA");
+        strings.add("BBB");
+        strings.add("CCC");
+        strings.add("CCC");
+        strings.add("DDD");
+        strings.add(null);
+
+        for (Iterator<String> iter = strings1.iterator(); iter.hasNext();)
+            System.out.println(iter.next());
+
+
 
 
         System.out.println();
