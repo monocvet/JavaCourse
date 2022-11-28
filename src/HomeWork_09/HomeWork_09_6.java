@@ -15,27 +15,26 @@ public class HomeWork_09_6 {
 
         ArrayList<String> list = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
-        int max = list.get(0).length();
-        int min = list.get(0).length();
-        int minlength = 0;
-        int maxlength = 0;
 
-
-        for (int i = 0; i < 10; i++) {
-            System.out.println("¬ведите строку: ");
+        for (int i = 0; i < 5; i++) {
+            System.out.print("¬ведите строку: ");
             list.add(scanner.nextLine());
-            if (list.get(i).length() > max) {
-                max = list.get(i).length();
-                maxlength = i;
-            }else if (list.get(i).length() < max) {
-                min = list.get(i).length();
-                minlength = i;
-            }
         }
-        if (minlength >= maxlength)
-            System.out.println(list.get(maxlength));
-        else
-            System.out.println(list.get(minlength));
+        for (int i = 0; i < list.size(); i++) {
+            int a = 0;
+            int b = 0;
+            for (int j = 0; j < list.size(); j++) {
+                if (list.get(i).length() >= list.get(j).length()) {
+                    a++;
+                }
+                if (list.get(i).length() <= list.get(j).length()) {
+                    b++;
+                }
+                if (a == 5 || b == 5) {
+                    System.out.println(list.get(i));
+                }
+            }
 
+        }
     }
 }
