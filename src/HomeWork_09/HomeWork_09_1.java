@@ -17,9 +17,11 @@ public class HomeWork_09_1 {
         list.add("У тебя океан внутри.");
         list.add("За одну ночь нельзя изменить жизнь.");
         list.add("Не стоит принимать доброту за слабость.");
+
+        System.out.println("Размер коллекции: " + list.size());
+
         for (int i = 0; i < 5; i++) {
             System.out.println(list.get(i));
         }
-        System.out.println("Размер коллекции: " + list.size());
     }
 }
