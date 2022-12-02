@@ -1,15 +1,15 @@
-package HomeWork_04;
+package lesson_04.HomeWork_04;
 
 import java.util.Scanner;
 
 public class HomeWork_03 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Введите первое число: ");
+        System.out.print("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ: ");
         int a = scanner.nextInt();
-        System.out.print("Введите второе число: ");
+        System.out.print("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ: ");
         int b = scanner.nextInt();
-        System.out.print("Введите третье число: ");
+        System.out.print("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ: ");
         int c = scanner.nextInt();
 
         if ((a >= b) && (a <= c) || (a < b) && (a > c)) {

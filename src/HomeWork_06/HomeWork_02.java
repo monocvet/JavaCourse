@@ -1,12 +1,12 @@
-package HomeWork_06;
+package lesson_06.HomeWork_06;
 
 import java.util.Scanner;
 
 public class HomeWork_02 {
     public static void main(String[] args) {
         /**
-         Ввести 5 строк с консоли, найти самую короткую и самую длинную строки.
-         Вывести найденные строки и их длину.*/
+         пїЅпїЅпїЅпїЅпїЅпїЅ 5 пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ.
+         пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ.*/
         Scanner scanner = new Scanner(System.in);
         String[] array = new String[5];
         //  int[] count = new int[5];
@@ -15,7 +15,7 @@ public class HomeWork_02 {
         String d = "";
 
         for (int i = 0; i < array.length; i++) {
-            System.out.print("Введите строку: ");
+            System.out.print("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ: ");
             array[i] = scanner.nextLine();
         }
         for (int i = 0; i < array.length; i++) {
@@ -27,8 +27,8 @@ public class HomeWork_02 {
                 d = array[i];
             }
         }
-        System.out.println("Самая длинная строка: " + s + " , длина: " + s.length());
-        System.out.println("Самая короткая строка: " + d + " , длина: " + d.length());
+        System.out.println("пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ: " + s + " , пїЅпїЅпїЅпїЅпїЅ: " + s.length());
+        System.out.println("пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ: " + d + " , пїЅпїЅпїЅпїЅпїЅ: " + d.length());
     }
 }
 

@@ -1,20 +1,20 @@
-package HomeWork_04;
+package lesson_04.HomeWork_04;
 
 import java.util.Scanner;
 
 public class HomeWork_06 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Введите ваше имя: ");
+        System.out.print("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ: ");
         String name = scanner.nextLine();
-        System.out.print("Введите дату вашего рождения: ");
+        System.out.print("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: ");
         int d = scanner.nextInt();
-        System.out.print("Введите месяц вашего рождения: ");
+        System.out.print("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: ");
         int m = scanner.nextInt();
-        System.out.print("Введите год вашего рождения: ");
+        System.out.print("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: ");
         int y = scanner.nextInt();
 
-        System.out.println("Меня зовут " + name + "." );
-        System.out.println("Я родился " + d + "." + m + "." + y);
+        System.out.println("пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ " + name + "." );
+        System.out.println("пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ " + d + "." + m + "." + y);
     }
 }

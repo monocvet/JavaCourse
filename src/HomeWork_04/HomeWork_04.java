@@ -1,11 +1,11 @@
-package HomeWork_04;
+package lesson_04.HomeWork_04;
 
 import java.util.Scanner;
 
 public class HomeWork_04 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Введите число: ");
+        System.out.print("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ: ");
         int number = 0;
         while (true) {
             int num = scanner.nextInt();

@@ -1,4 +1,4 @@
-package HomeWork_05;
+package lesson_05.HomeWork_05;
 
 public class Util {
     public void print() {

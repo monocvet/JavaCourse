@@ -1,14 +1,14 @@
-package HomeWork_04;
+package lesson_04.HomeWork_04;
 
 import java.util.Scanner;
 
 public class HomeWork_01 {
     public static void main(String[] args) {
-        /** Задача №1 */
+        /** пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ1 */
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Введите первую сторону прямоугольника: ");
+        System.out.print("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: ");
         int m = scanner.nextInt();
-        System.out.print("Введите вторую сторону пря2моугольника: ");
+        System.out.print("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ2пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: ");
         int n = scanner.nextInt();
 
     for (int a = m; a > 0; a -- ) {

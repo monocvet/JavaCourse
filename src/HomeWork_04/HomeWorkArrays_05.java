@@ -1,4 +1,4 @@
-package HomeWork_04;
+package lesson_04.HomeWork_04;
 
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ public class HomeWorkArrays_05 {
         int[] array2 = new int[10];
 
         for (int i = 0; i < 20; i++) {
-            System.out.print("Ââåäèòå ÷èñëî: ");
+            System.out.print("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: ");
             int a = scanner.nextInt();
             array[i] = a;
         }

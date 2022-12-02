@@ -1,5 +1,6 @@
 package lesson_09_hash_code;
 
+import java.util.Comparator;
 import java.util.HashSet;
 import java.util.TreeSet;
 
@@ -36,13 +37,18 @@ public class Main {
 
         System.out.println();
 
-        for (Coin c: coinCollection) {
+        for (Coin c : coinCollection) {
             System.out.println(c);
         }
-double number = (double) 5 / 2;
+        double number = (double) 5 / 2;
         System.out.println(number);
 
-        TreeSet<Integer> treeSet = new TreeSet<>();
+        TreeSet<Integer> treeSet = new TreeSet<>(new Comparator<Integer>() {
+            @Override
+            public int compare(Integer o1, Integer o2) {
+                return o2 - o1;
+            }
+        });
 
         treeSet.add(111);
         treeSet.add(222);

@@ -1,4 +1,4 @@
-package HomeWork_04;
+package lesson_04.HomeWork_04;
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ public class HomeWorkArrays_02 {
         Scanner scanner = new Scanner(System.in);
         int[] array = new int[10];
         for (int i = 0; i < 10; i++) {
-            System.out.print("Введите число: ");
+            System.out.print("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ: ");
             int a = scanner.nextInt();
             array[i] = a;
         }
@@ -16,6 +16,6 @@ public class HomeWorkArrays_02 {
             if (max < array[i]) {
                 max = array[i];
             }
-        } System.out.println("Максимальное число: " + max);
+        } System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ: " + max);
     }
 }
